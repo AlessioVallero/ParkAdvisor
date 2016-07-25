@@ -1,0 +1,27 @@
+// Label
+"#lblAppTextField":
+{
+    top: 0 ,
+    left: 0 ,
+    width: 80 ,
+    height: 50 ,
+    font:
+    {
+        fontFamily: 'Arial' ,
+        fontWeight: 'bold' ,
+        fontSize: '12'
+    } ,
+    color: '#000' ,
+    textAlign: 'right'
+} ,
+
+// TextField
+"#txtAppTextField":
+{
+    backgroundColor: '#ffffff' ,
+    color: "black" ,
+    left: 90 ,
+    right: 10 ,
+    height: 50 ,
+    bubbleParent: false
+}

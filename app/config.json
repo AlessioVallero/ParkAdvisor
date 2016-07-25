@@ -1,0 +1,18 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "dependencies": {
+        "com.diseg.AppButton": "1.0",
+        "com.diseg.AppTextField": "1.0",
+        "com.diseg.AppComboBox": "1.0",
+        "com.diseg.AppCheckBox": "1.0",
+        "com.mcongrove.slideMenu": "1.1",
+        "com.orthlieb.combobox":"1.1"
+    }
+}

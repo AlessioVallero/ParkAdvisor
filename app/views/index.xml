@@ -1,0 +1,28 @@
+<Alloy>
+    <Window id="mainWindow">
+        <ActivityIndicator id="activity_indicator" />
+
+        <Widget id="slideMenu" src="com.mcongrove.slideMenu" />
+        <View id="appWrapper">
+            <Button id="btn_slider_menu" onClick="OnBtnSliderMenu_Click" />
+
+            <ImageView id="imageViewAppLogo" />
+            <Label id="lblDevelopedBy" />
+
+            <SearchBar id="searchView" platform="ios" onReturn="OnSearchBar_Search" />
+            <Button id="searchViewCancel" platform="ios" onClick="OnSearchBar_Cancel" />
+            <SearchView id="searchView" ns="Ti.UI.Android" platform="android" onSubmit="OnSearchBar_Search" onCancel="OnSearchBar_Cancel" />
+
+            <View id="mapContainer">
+                <View id="map" ns="Alloy.Globals.Map" onClick="OnMap_Click" />
+                <ImageView id="targetOnParkingSpot" />
+            </View>
+
+            <View id="targetOnParkingContainer">
+                <Button id="btn_target_on_parking" onClick="OnBtnTargetOnParking_Click" />
+            </View>
+            <Button id="btn_search_here" onClick="OnBtnSearchHere_Click" />
+            <Button id="btn_tag_my_car" onClick="OnBtnTagMyCar_Click" />
+        </View>
+    </Window>
+</Alloy>

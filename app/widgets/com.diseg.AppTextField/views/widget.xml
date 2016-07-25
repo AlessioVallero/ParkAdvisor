@@ -1,0 +1,4 @@
+<Alloy>
+    <Label id="lblAppTextField" />
+    <TextField id="txtAppTextField" />
+</Alloy>
